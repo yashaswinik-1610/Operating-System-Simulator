@@ -8,18 +8,18 @@ os_visual_simulator/
 │
 ├── main.py                      # Starting point of the application
 │
-├── core/                       
-│   ├── __init__.py              # Pure logic (no GUI)
+├── core/                        # Pure logic (no GUI)
+│   ├── __init__.py
 │   ├── process.py               # Process class + PCB
 │   ├── scheduler.py             # All scheduling algorithms
 │   ├── memory.py                # Memory management logic
 │   └── deadlock.py              # Deadlock related logic
 │
-├── gui/                        
-│   ├── __init__.py              # Everything visual
+├── gui/                         # Everything visual
+│   ├── __init__.py
 │   ├── dashboard.py             # Main home screen
-│   └── views/                  
-│       ├── __init__.py          # Individual modules
+│   └── views/                   # Individual modules
+│       ├── __init__.py
 │       ├── introduction.py      # Introduction to OS
 │       └── scheduling.py        # CPU Scheduling screen
 │
@@ -31,6 +31,7 @@ os_visual_simulator/
 │
 ├── requirements.txt
 └── README.md
+
 
 ## Why this project?
 
