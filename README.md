@@ -4,6 +4,7 @@ An interactive visual learning tool that helps us understand Operating System co
 
 ## Tentative Project Structure
 
+```text
 os_visual_simulator/
 │
 ├── main.py                     # Starting point of the application (Router)
@@ -30,7 +31,7 @@ os_visual_simulator/
 │   └── images/                 # Diagrams and illustrations
 │
 └── docs/                       # Notes / diagrams / documentation
-
+```
 
 ## Why this project?
 
