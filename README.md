@@ -6,31 +6,30 @@ An interactive visual learning tool that helps us understand Operating System co
 
 os_visual_simulator/
 │
-├── main.py                      # Starting point of the application
+├── main.py                     # Starting point of the application (Router)
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
 │
-├── core/                        # Pure logic (no GUI)
+├── core/                       # Pure logic (no GUI)
 │   ├── __init__.py
-│   ├── process.py               # Process class + PCB
-│   ├── scheduler.py             # All scheduling algorithms
-│   ├── memory.py                # Memory management logic
-│   └── deadlock.py              # Deadlock related logic
+│   ├── process.py              # Process class + PCB (Process Control Block)
+│   ├── scheduler.py            # All scheduling algorithms
+│   ├── memory.py               # Memory management logic
+│   └── deadlock.py             # Deadlock related logic
 │
-├── gui/                         # Everything visual
+├── gui/                        # Everything visual (Streamlit)
 │   ├── __init__.py
-│   ├── dashboard.py             # Main home screen
-│   └── views/                   # Individual modules
+│   ├── dashboard.py            # Main home screen
+│   └── views/                  # Individual modules
 │       ├── __init__.py
-│       ├── introduction.py      # Introduction to OS
-│       └── scheduling.py        # CPU Scheduling screen
+│       ├── introduction.py     # Introduction to OS
+│       └── scheduling.py       # CPU Scheduling screen
 │
-├── assets/
-│   ├── icons/
-│   └── images/
+├── assets/                     # Static files
+│   ├── icons/                  # UI icons
+│   └── images/                 # Diagrams and illustrations
 │
-├── docs/                        # notes / diagrams
-│
-├── requirements.txt
-└── README.md
+└── docs/                       # Notes / diagrams / documentation
 
 
 ## Why this project?
