@@ -11,18 +11,18 @@ os_visual_simulator/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
 │
-├── core/                       # Pure logic (no GUI)
-│   ├── __init__.py
+├── core/                       
+│   ├── __init__.py             # Pure logic (no GUI)
 │   ├── process.py              # Process class + PCB (Process Control Block)
 │   ├── scheduler.py            # All scheduling algorithms
 │   ├── memory.py               # Memory management logic
 │   └── deadlock.py             # Deadlock related logic
 │
-├── gui/                        # Everything visual (Streamlit)
-│   ├── __init__.py
+├── gui/                        
+│   ├── __init__.py             # Everything visual (Streamlit)
 │   ├── dashboard.py            # Main home screen
-│   └── views/                  # Individual modules
-│       ├── __init__.py
+│   └── views/                  
+│       ├── __init__.py         # Individual modules
 │       ├── introduction.py     # Introduction to OS
 │       └── scheduling.py       # CPU Scheduling screen
 │
