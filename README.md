@@ -46,14 +46,17 @@ Instead of only reading theory, here we can:
 
 ## Tentative Planned Features
 
-| Module                    | Description                                                                                  |
-|---------------------------|----------------------------------------------------------------------------------------------|
-| Introduction to OS        | Resource Abstraction, Time/Space Multiplexing, Types of OS (Batch, Time Sharing, PC, Embedded, Network)          |
-| Processes & Threads       | Process states, PCB/TCB, Context switch, Thread management                                   |      
-| CPU Scheduling            |FCFS, SJF, Priority, Round Robin, Preemptive vs Non-preemptive, Metrics                       |  
-| Synchronization           | Critical Section, Semaphores, Monitors, Producer-Consumer, Dining Philosophers, Reader-Writer|   
-| Deadlock                  | Conditions, Prevention, Avoidance (Banker's), Detection, Recovery                            |
-| Memory Management         | Contiguous allocation (First/Best/Worst fit), Fragmentation, Swapping                        |   
-| Virtual Memory            | Paging, Segmentation, Page replacement (FIFO, LRU, LFU), Thrashing, Working Set              |      
-| File Management           | File operations, Directory structures, Allocation methods                                    |     
-| Device Management           | FCFS, SSTF, SCAN, C-SCAN                 |    |
+| Module                    | Description                                                                                           |
+|---------------------------|-------------------------------------------------------------------------------------------------------|
+| Introduction to OS        | Resource Abstraction, Time/Space Multiplexing, Types of OS (Batch, Time Sharing, PC, Embedded,Network)|                                                                                                                  |
+| OS Architecture           | OS Functions, Kernel Types (Monolithic, Layered, Microkernel), User vs Supervisor Mode                |      
+| Processes & Threads       | Process States, PCB, TCB, Context Switching, Thread Management                                        |  
+| CPU Scheduling            | FCFS, SJF, Priority, Round Robin, Multi-level Queue, Performance Metrics                              |   
+| Process Synchronization   | Critical Section, Semaphores, Producer-Consumer, Dining Philosophers, Reader-Writer, Monitors, IPC    |
+| Deadlock                  | Prevention, Avoidance (Banker's Algorithm), Detection (RAG), Recovery                                 |   
+| Memory Management         | Address Binding, Contiguous Allocation, First/Best/Worst Fit, Fragmentation, Swapping                 |      
+| Virtual Memory            | Paging, Segmentation, FIFO, LRU, LFU, Page Fault, Thrashing, Working Set                              |     
+| File Management           | File Operations, Allocation Methods (Contiguous, Linked, Indexed), Directory Structures               |   
+| Device Management         | Device Drivers, Disk Scheduling (FCFS, SCAN, C-SCAN, SSTF), I/O Techniques, Buffering                 |
+| Protection & Security     | Authentication, Authorization, Access Control, Security Attacks, Basic Cryptography                   |
+| Distributed Systems       | RPC, Distributed Memory, Remote Process Management, Design Strategies                                 |
