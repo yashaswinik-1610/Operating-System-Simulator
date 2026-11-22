@@ -44,16 +44,16 @@ Instead of only reading theory, here we can:
 - Explore disk scheduling and file systems
 
 
-## Planned Features
+## Tentative Planned Features
 
-| Module                    | Description                                                | 
-|---------------------------|------------------------------------------------------------|
-| Introduction to OS        | Types of OS, Resource Abstraction, Functions of OS, Kernel vs User mode, Modularity                            |
-| Processes & Threads       | Process states, PCB, context switching                     |
-| CPU Scheduling            | FCFS, SJF, Priority, Round Robin                           |
-| Synchronization           | Semaphores, Producer-Consumer, etc.                        |
-| Deadlock                  | Conditions, prevention, avoidance, detection, recovery     |
-| Memory Management         | Contiguous allocation + Paging           |
-| Virtual Memory            | Page replacement algorithms              |
-| File System               | File allocation and directories          |
-| Disk Scheduling           | FCFS, SSTF, SCAN, C-SCAN                 |
+| Module                    | Description                                                                                  |
+|---------------------------|----------------------------------------------------------------------------------------------|
+| Introduction to OS        | Resource Abstraction, Time/Space Multiplexing, Types of OS (Batch, Time Sharing, PC, Embedded, Network)          |
+| Processes & Threads       | Process states, PCB/TCB, Context switch, Thread management                                   |      
+| CPU Scheduling            |FCFS, SJF, Priority, Round Robin, Preemptive vs Non-preemptive, Metrics                       |  
+| Synchronization           | Critical Section, Semaphores, Monitors, Producer-Consumer, Dining Philosophers, Reader-Writer|   
+| Deadlock                  | Conditions, Prevention, Avoidance (Banker's), Detection, Recovery                            |
+| Memory Management         | Contiguous allocation (First/Best/Worst fit), Fragmentation, Swapping                        |   
+| Virtual Memory            | Paging, Segmentation, Page replacement (FIFO, LRU, LFU), Thrashing, Working Set              |      
+| File Management           | File operations, Directory structures, Allocation methods                                    |     
+| Device Management           | FCFS, SSTF, SCAN, C-SCAN                 |    |
